@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand: #1e4b8f;
+  --surface-muted: #f5f7fa;
+}
+
+body {
+  @apply bg-surface-muted text-slate-900 antialiased;
+}
